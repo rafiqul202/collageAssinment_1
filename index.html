@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+</head>
+<body>
+    
+<!-- header section start  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> bookBD </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="এখানে অনুসন্ধান করুন..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#featured">Featured</a>
+            <a href="#arrivals">Arrivals</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section end -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+</nav>
+
+<!-- login form  -->
+
+<div  class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>সাইন ইন করুন</h3>
+        <span>ব্যবহারকারীর নাম</span>
+        <input type="email" name="" class="box" placeholder=" আপনার  ইমেইল দিন" id="">
+        <span>পাসওয়ার্ড</span>
+        <input type="password" name="" class="box" placeholder="আপনার পাসওয়ার্ড লিখুন" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">আপনার তথ্য সংরক্ষণ করুন</label>
+        </div>
+        <input type="submit" value="সাইন ইন করুন" class="btn">
+        <p>পাসওয়ার্ড ভুলে গেছেন ? <a href="#">এখানে ক্লিক করুন</a></p>
+        <p>অ্যাকাউন্ট নেই? <a href="#">একটি তৈরী করুন</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div  class="content">
+            <h3>৭৫% পর্যন্ত ছাড়!</h3>
+            <p>" বুকবিডি " বিজয়োৎসব" চলবে, ১৪-১৭ ডিসেম্বর পর্যন্ত ।</p>
+            <a href="#"  class="btn">এখনই কিনুন</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="image/bangla.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/bangla2.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/bangla3.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/bangla4.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/bangla5.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/bangla6.jpg" alt=""></a>
+            </div>
+            <img src="image/stand.png" class="stand" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ense  -->
+
+<!-- icons section starts  -->
+
+<section data-aos="fade-up"
+data-aos-duration="3000" class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>বিনামূল্যে পরিবহন</h3>
+            <p>৫০০ টাকার উপরে অর্ডার করুন</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>নিরাপদ পেমেন্ট</h3>
+            <p>১০০ নিরাপদ পেমেন্ট</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>সহজে রিটার্ন</h3>
+            <p>৫ দিনে রিটার্ন</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>২৪/৭ কাস্টমার সাপোর্ট</h3>
+            <p>যে কোন সময় আমাদের কল করুন</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!-- featured section starts  -->
+
+<section  class="featured" id="featured">
+
+    <h1 class="heading"> <span>নতুন বই</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/bangla.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন বই</h3>
+                    <div class="price">৩০০ টাকা <span>৪৫০ টাকা</span></div>
+                    <a href="#" class="btn">কার্ড যোগ করুন</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/bangla2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন বই</h3>
+                    <div class="price"> ৩০০ টাকা<span>৪০০ টাকা</span></div>
+                    <a href="#" class="btn">কার্ড যোগ করুন</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/bangla3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন বই</h3>
+                    <div class="price">৬০০ টাকা<span>৭০০ টাকা</span></div>
+                    <a href="#" class="btn">কার্ড যোগ করুন</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/bangla4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন বই</h3>
+                    <div class="price">১২০০ টাকা<span>১৩০০ টাকা</span></div>
+                    <a href="#" class="btn">কার্ড যোগ করুন</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/bangla5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন বই</h3>
+                    <div class="price">৭০০ টাকা <span>৮০০ টাকা</span></div>
+                    <a href="#" class="btn">কার্ড যোগ করুন</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/bangla6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন বই</h3>
+                    <div class="price">৬০০ টাকা<span>৭৫০ টাকা</span></div>
+                    <a href="#" class="btn">কার্ড যোগ করুন</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/bangla7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন বই</h3>
+                    <div class="price">১৩০০ টাকা<span>১৪০০ টাকা</span></div>
+                    <a href="#" class="btn">কার্ড যোগ করুন</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/bangla3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন বই</h3>
+                    <div class="price">৫৫০ টাকা<span>৬৪০ টাকা</span></div>
+                    <a href="#" class="btn">কার্ড যোগ করুন</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/bangla7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন বই</h3>
+                    <div class="price">১৮০০ টাকা<span>২০০০ টাকা</span></div>
+                    <a href="#" class="btn">কার্ড যোগ করুন</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/bangla5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন বই</h3>
+                    <div class="price">৫৫০ টাকা<span>৬৪০ টাকা</span></div>
+                    <a href="#" class="btn">কার্ড যোগ করুন</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+<!-- newsletter section starts -->
+
+<section class="newsletter">
+
+    <form data-aos="fade-down-right" action="">
+        <h3>সর্বশেষ আপডেটের জন্য সাবস্ক্রাইব করুন ।</h3>
+        <input type="email" name="" placeholder="আপনার ইমেইল প্রবেশ করান" id="" class="box">
+        <input type="submit" value="সাবস্ক্রাইব" class="btn">
+    </form>
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- arrivals section starts  -->
+
+<section class="arrivals" id="arrivals">
+
+    <h1 class="heading"> <span>নতুন আগমন</span> </h1>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/bangla.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন আগমন</h3>
+                    <div class="price">৫৫০ টাকা<span>৬৪০ টাকা</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/bangla2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন আগমন</h3>
+                    <div class="price">১৪০০ টাকা<span>১৬০০ টাকা</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/bangla3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন আগমন</h3>
+                    <div class="price">১৫০০ টাকা<span>১৬০০ টাকা</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/bangla4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন আগমন</h3>
+                    <div class="price">১৪৭০ টাকা <span>১৯০০ টাকা</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/bangla5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন আগমন</h3>
+                    <div class="price">১৩০০ টাকা <span>১৭০০ টাকা</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/bangla6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন আগমন</h3>
+                    <div class="price">১৩০০ টাকা <span>১৭০০ টাকা</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/bangla7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন আগমন</h3>
+                    <div class="price">১৬০০ টাকা<span>১৭০০ টাকা</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/bangla3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন আগমন</h3>
+                    <div class="price">১৭০০ টাকা<span>২১০০ টাকা</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/bangla4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন আগমন</h3>
+                    <div class="price">১২০০ টাকা<span>১৮৯৯ টাকা</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/bangla5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>নতুন আগমন</h3>
+                    <div class="price">২০০ টাকা <span>৫০০ টাকা</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- arrivals section ends -->
+
+<!-- deal section starts  -->
+
+<section data-aos="fade-up"
+data-aos-duration="3000" class="deal">
+
+    <div  class="content">
+        <h3>আজকের সেরা বই</h3>
+        <h1>৫০% পর্যন্ত ছাড় !</h1>
+        <p> সেরা ইসলামি বই সমূহ , ইসলামি আমল ও আমলের সহায়িকা , ২৫% থেকে ৫০% পর্যন্ত ছাড়ের বই ।</p>
+        <a href="#" class="btn">এখনই কিনুন</a>
+    </div>
+
+    <div class="image">
+        <img src="image/islam.webp" alt="">
+    </div>
+
+</section>
+
+<!-- deal section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> <span>কাস্টমার  রিভিউ</span> </h1>
+
+    <div class="swiper reviews-slider">
+
+        <div  class="swiper-wrapper">
+
+            <div  class="swiper-slide box">
+                <img src="image/rasel.jpg" alt="">
+                <h3>জুনায়েদ রাসেল</h3>
+                <p>বইগুল আমি যা আশা করেছি তার থেকে ও বেশ ভাল ছিল। ধ্যনবাদ সেলারকে উপহার এবং এত ভাল সারভিস দেবার জন্য</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/rakib.jpg" alt="">
+                <h3>রাকিব মিয়া</h3>
+                <p>বইগুল আমি যা আশা করেছি তার থেকে ও বেশ ভাল ছিল। ধ্যনবাদ সেলারকে উপহার এবং এত ভাল সারভিস দেবার জন্য</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/rupes.jpg" alt="">
+                <h3>রুপেস চাকমা</h3>
+                <p>বইগুল আমি যা আশা করেছি তার থেকে ও বেশ ভাল ছিল। ধ্যনবাদ সেলারকে উপহার এবং এত ভাল সারভিস দেবার জন্য</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- reviews section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span>আমাদের ব্লগ</span> </h1>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/4700.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>প্যারাডক্সিক্যাল সাজিদ </h3>
+                    <p>বর্তমান যুগ হলো প্রেজেন্টাশানের যুগ। একটা জিনিসকে আপনি কিভাবে, কতোটা সহজে, কতোটা সাবলীলভাবে, কতোটা মাধুর্যতায় প্রেজেন্টেশান করছেন তার উপর কিন্তু অনেক কিছুই নির্ভর করে।</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/index.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>হলুদ বসন্ত </h3>
+                    <p>ববুদ্ধদেব বসুর লেখা ‘হলুদ বসন্ত’ উপন্যাসে রোমান্টিকতার এক অনন্য রূপ প্রকাশিত। এই উপন্যাসের নায়ক ঋজু তার বন্ধুর বোন নয়না কে ভালোবাসে।তাদের অনুভূতি, অন্তর্দ্বন্দ্ব এই উপন্যাসে প্রকাশিত হয়েছে।</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/zin.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ঝিন্দের বন্দী </h3>
+                    <p>রদিন্দু বন্দ্যোপাধ্যায়ের অ্যাডভেঞ্চারধর্মী এই উপন্যাসে গৌরীশংকর এবং কস্তুরীর সম্পর্ক নিখুঁতভাবে চিত্রায়িত করেছেন উপন্যাসিক, রদিন্দু বন্দ্যোপাধ্যায়ের অ্যাডভেঞ্চারধর্মী এই উপন্যাসে গৌরীশংকর</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/bangla5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>সাত কিশোরের অভিযান</h3>
+                    <p>বর্তমান যুগ হলো প্রেজেন্টাশানের যুগ। একটা জিনিসকে আপনি কিভাবে, কতোটা সহজে, কতোটা সাবলীলভাবে, কতোটা মাধুর্যতায় প্রেজেন্টেশান করছেন তার উপর কিন্তু অনেক কিছুই নির্ভর করে।</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/bangla6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>একাকিত্বে ঘর ভরা </h3>
+                    <p>বর্তমান যুগ হলো প্রেজেন্টাশানের যুগ। একটা জিনিসকে আপনি কিভাবে, কতোটা সহজে, কতোটা সাবলীলভাবে, কতোটা মাধুর্যতায় প্রেজেন্টেশান করছেন তার উপর কিন্তু অনেক কিছুই নির্ভর করে।</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div data-aos="fade-up"
+    data-aos-duration="3000"    class="box-container">
+
+        <div class="box">
+            <h3>আমাদের অবস্থান</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> সিলেট </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> হবিগঞ্জ </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> মৌলভীবাজার</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> সুনামগঞ্জ </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>বানিয়াচং</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> আজমেরীগঞ্জ</a>
+        </div>
+
+        <div class="box">
+            <h3>দ্রুত লিঙ্ক</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> হোম পেইজ </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> ফিউচার পণ্য </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> নতুন আগমন </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> কাস্টমার পর্যালোচনা </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> ব্লগ </a>
+        </div>
+
+        <div class="box">
+            <h3>আমাদের তথ্য</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> অ্যাকাউন্ট তথ্য </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> অর্ডার করা পণ্য </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> গোপনীয়তা নীতি </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> মূল্যপরিশোধ পদ্ধতি </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> আমাদের সেবাসমূহ </a>
+        </div>
+
+        <div class="box">
+            <h3>যোগাযোগের তথ্য</h3>
+            <a href="#"> <i class="fas fa-phone"></i> ০১৭১৫০৪৫৫৭২ </a>
+            <a href="#"> <i class="fas fa-phone"></i> ০১৭৫৩৭১০৬৬৪ </a>
+            <a href="#"> <i class="fas fa-envelope"></i> Junaiedrasel@gmail.com </a>
+            <img src="image/worldmap.png" class="map" alt="">
+        </div>
+        
+    </div>
+
+    <div data-aos="fade-up"
+    data-aos-duration="3000" class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div  class="credit"> Junaied Rasel </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

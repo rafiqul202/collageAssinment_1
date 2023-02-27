@@ -451,10 +451,7 @@ section {
   color: var(--black);
   background: #fff;
 }
-/* .swiper-slide box img{
-    height: 150px;
-    width: 150px;
-} */
+
 .swiper-button-next::after,
 .swiper-button-prev::after {
   font-size: 2rem;
@@ -590,6 +587,7 @@ section {
     width:12rem; */
   height: 150px;
   width: 150px;
+  border: 3px solid #4070fa;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -634,11 +632,13 @@ section {
 .blogs .blogs-slider .box .image img {
   height: 100%;
   width: 100%;
+
   object-fit: cover;
 }
 
 .blogs .blogs-slider .box:hover .image img {
   transform: scale(1.1);
+
 }
 
 .blogs .blogs-slider .box .content {

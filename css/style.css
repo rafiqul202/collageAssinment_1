@@ -720,7 +720,9 @@ section {
   color: var(--light-color);
   text-align: center;
 }
-
+.cp-text{
+  color: red;
+}
 .footer .credit span {
   color: var(--green);
 }
